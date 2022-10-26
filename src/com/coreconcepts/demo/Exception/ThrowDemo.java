@@ -3,9 +3,9 @@ package com.coreconcepts.demo.Exception;
 import java.util.Scanner;
 
 public class ThrowDemo {
-	    //Throw exception if number 1 is greater than 900
-	    static int add(int num1, int num2){
-	      if (num1 > 900){
+   static int add(int num1, int num2){
+	      if (num1 > 900){	   
+	    	  //Throw exception if number 1 is greater than 900 
 	         throw new ArithmeticException("Num 1 is greater than 900 and hence Exception is thrown");
 	      }else{
 	         System.out.println("Both parameters are correct!!");
